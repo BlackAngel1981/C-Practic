@@ -59,6 +59,36 @@ Console.WriteLine ($"max = {max} ");
 */
 
 
+
+
+//Вариант решения номер 2 (более правильный вроде как )
+
+/*
+Console.Write ("Input number 1: ");
+int num = Convert.ToInt32(Console.ReadLine());
+Console.Write ("Input number 2: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.Write ("Input number 3: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+int max=0;
+
+if(num > max)
+{
+    max = num;
+}
+if(num1 > max)
+{
+    max = num1;
+}
+if(num2 > max)
+{
+    max = num2;
+}
+
+Console.WriteLine("max = " + max);
+*/
+
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
 //является ли число чётным (делится ли оно на два без остатка).
 
@@ -84,7 +114,7 @@ else
 //Задача 8: Напишите программу, которая на вход принимает число (N), 
 //а на выходе показывает все чётные числа от 1 до N.
 
-
+/*
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
@@ -98,3 +128,5 @@ if(num > 1)
         evenNum = evenNum + 2;
     }
 }
+
+*/
